@@ -54,6 +54,10 @@ Hope you can find interests in the books.
   
 - [失败的逻辑：事情因何出错，世间有无妙策](https://github.com/yowenter/books/blob/master/Mind/失败的逻辑：事情因何出错，世间有无妙策.pdf)  
   
+- [安迪·格鲁夫：只有偏执狂才能生存 (扫描版)](https://github.com/yowenter/books/blob/master/Mind/安迪·格鲁夫：只有偏执狂才能生存 (扫描版).pdf)  
+  
+- [彼得·圣吉：第五项修炼——学习型组织的艺术与实务](https://github.com/yowenter/books/blob/master/Mind/彼得·圣吉：第五项修炼——学习型组织的艺术与实务.pdf)  
+  
 - [高斯 & 温伯格：你的灯亮着吗？——发现问题的真正所在](https://github.com/yowenter/books/blob/master/Mind/高斯 & 温伯格：你的灯亮着吗？——发现问题的真正所在.pdf)  
   
 ## Networks  
