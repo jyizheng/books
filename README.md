@@ -10,63 +10,33 @@ Hope you can find interests in the books.
 ```
 # books  
   
-## Economics  
-  
-- [Macroeconomics NGregoryMankiw8th](https://github.com/yowenter/books/blob/master/Economics/Macroeconomics N.Gregory.Mankiw.8th.pdf)  
-  
-- [弗雷德里克·米什金：The Economics of Money, Banking, and Financial Markets (第7版 扫描版)](https://github.com/yowenter/books/blob/master/Economics/弗雷德里克·米什金：The Economics of Money, Banking, and Financial Markets (第7版 扫描版).pdf)  
-  
-- [聪明的投资者  第四版](https://github.com/yowenter/books/blob/master/Economics/聪明的投资者  第四版.pdf)  
-  
-- [证券分析(第6版)上](https://github.com/yowenter/books/blob/master/Economics/证券分析(第6版)上.pdf)  
-  
-- [证券分析(第6版)下](https://github.com/yowenter/books/blob/master/Economics/证券分析(第6版)下.pdf)  
-  
-## Google Papers  
-  
-- [bigtable-osdi06](https://github.com/yowenter/books/blob/master/Google Papers/bigtable-osdi06.pdf)  
-  
-- [gfs-sosp2003](https://github.com/yowenter/books/blob/master/Google Papers/gfs-sosp2003.pdf)  
-  
-- [Large-scale cluster management at Google with Borg](https://github.com/yowenter/books/blob/master/Google Papers/Large-scale cluster management at Google with Borg.pdf)  
-  
-- [mapreduce-osdi04](https://github.com/yowenter/books/blob/master/Google Papers/mapreduce-osdi04.pdf)  
-  
-## Information Retrieval  
-  
-- [Information Retrieval Implementing and Evaluating Search Engines](https://github.com/yowenter/books/blob/master/Information Retrieval/Information Retrieval Implementing and Evaluating Search Engines.pdf)  
-  
-- [introduction to information retrieval Manning](https://github.com/yowenter/books/blob/master/Information Retrieval/introduction to information retrieval Manning.pdf)  
-  
-- [SEIRiP](https://github.com/yowenter/books/blob/master/Information Retrieval/SEIRiP.pdf)  
-  
 ## Machine Learning  
-  
-- [Bishop - Pattern Recognition and Machine Learning](https://github.com/yowenter/books/blob/master/Machine Learning/Bishop - Pattern Recognition and Machine Learning.pdf)  
   
 - [Machine Learning in Action](https://github.com/yowenter/books/blob/master/Machine Learning/Machine Learning in Action.pdf)  
   
+- [ISLR First Printing](https://github.com/yowenter/books/blob/master/Machine Learning/ISLR First Printing.pdf)  
+  
 - [MachineLearningAProbabilisticPerspective,KevinPMurphy,MITPress,2012](https://github.com/yowenter/books/blob/master/Machine Learning/Machine.Learning.A.Probabilistic.Perspective,.Kevin.P..Murphy,.MIT.Press,.2012.pdf)  
   
-## Mind  
+- [Bishop - Pattern Recognition and Machine Learning](https://github.com/yowenter/books/blob/master/Machine Learning/Bishop - Pattern Recognition and Machine Learning.pdf)  
   
-- [simple heuristics that make us smart](https://github.com/yowenter/books/blob/master/Mind/simple heuristics that make us smart.pdf)  
+## Google Papers  
   
-- [失败的逻辑：事情因何出错，世间有无妙策](https://github.com/yowenter/books/blob/master/Mind/失败的逻辑：事情因何出错，世间有无妙策.pdf)  
+- [Large-scale cluster management at Google with Borg](https://github.com/yowenter/books/blob/master/Google Papers/Large-scale cluster management at Google with Borg.pdf)  
   
-- [安迪·格鲁夫：只有偏执狂才能生存 (扫描版)](https://github.com/yowenter/books/blob/master/Mind/安迪·格鲁夫：只有偏执狂才能生存 (扫描版).pdf)  
+- [gfs-sosp2003](https://github.com/yowenter/books/blob/master/Google Papers/gfs-sosp2003.pdf)  
   
-- [彼得·圣吉：第五项修炼——学习型组织的艺术与实务](https://github.com/yowenter/books/blob/master/Mind/彼得·圣吉：第五项修炼——学习型组织的艺术与实务.pdf)  
+- [bigtable-osdi06](https://github.com/yowenter/books/blob/master/Google Papers/bigtable-osdi06.pdf)  
   
-- [高斯 & 温伯格：你的灯亮着吗？——发现问题的真正所在](https://github.com/yowenter/books/blob/master/Mind/高斯 & 温伯格：你的灯亮着吗？——发现问题的真正所在.pdf)  
+- [mapreduce-osdi04](https://github.com/yowenter/books/blob/master/Google Papers/mapreduce-osdi04.pdf)  
   
-## Networks  
-  
-- [Computer Networks - A Tanenbaum - 5th edition](https://github.com/yowenter/books/blob/master/Networks/Computer Networks - A Tanenbaum - 5th edition.pdf)  
-  
-- [TCP-IP Illustrated Volume 1 The Protocols [第二版][英文版][文字版]](https://github.com/yowenter/books/blob/master/Networks/TCP-IP Illustrated Volume 1 The Protocols [第二版][英文版][文字版].pdf)  
+- [如何阅读一本书](https://github.com/yowenter/books/blob/master/如何阅读一本书.pdf)  
   
 ## Product  
+  
+- [Intercom-on-Onboarding](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Onboarding.pdf)  
+  
+- [Intercom-on-Product-Management-](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Product-Management-.pdf)  
   
 - [Intercom-on-Customer-Engagement](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Customer-Engagement.pdf)  
   
@@ -74,31 +44,61 @@ Hope you can find interests in the books.
   
 - [Intercom-on-Jobs-to-be-Done](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Jobs-to-be-Done.pdf)  
   
-- [Intercom-on-Onboarding](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Onboarding.pdf)  
+## Networks  
   
-- [Intercom-on-Product-Management-](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Product-Management-.pdf)  
+- [TCP-IP Illustrated Volume 1 The Protocols [第二版][英文版][文字版]](https://github.com/yowenter/books/blob/master/Networks/TCP-IP Illustrated Volume 1 The Protocols [第二版][英文版][文字版].pdf)  
+  
+- [Computer Networks - A Tanenbaum - 5th edition](https://github.com/yowenter/books/blob/master/Networks/Computer Networks - A Tanenbaum - 5th edition.pdf)  
   
 ## Programming  
   
-- [Compilers - Principles Techniques and Tools by Alfred Aho - Monica Lam- Ravi Sethi- Jeffrey Ullman - Second Edition](https://github.com/yowenter/books/blob/master/Programming/Compilers - Principles Techniques and Tools by Alfred Aho - Monica Lam- Ravi Sethi- Jeffrey Ullman - Second Edition.pdf)  
-  
-- [Computer Systems - A Programmer's Perspective (2nd)](https://github.com/yowenter/books/blob/master/Programming/Computer Systems - A Programmer's Perspective (2nd).pdf)  
-  
-- [Modern_Operating_Systems](https://github.com/yowenter/books/blob/master/Programming/Modern_Operating_Systems.pdf)  
+- [The Art Of Unix Programming](https://github.com/yowenter/books/blob/master/Programming/The Art Of Unix Programming.pdf)  
   
 - [Principles of Distributed Computing](https://github.com/yowenter/books/blob/master/Programming/Principles of Distributed Computing.pdf)  
   
-- [The Art Of Unix Programming](https://github.com/yowenter/books/blob/master/Programming/The Art Of Unix Programming.pdf)  
-  
-- [the c programming language%25282nd edition%2529](https://github.com/yowenter/books/blob/master/Programming/the c programming language%25282nd edition%2529.pdf)  
-  
-- [汇编语言王爽著](https://github.com/yowenter/books/blob/master/Programming/汇编语言王爽著.pdf)  
+- [Computer Systems - A Programmer's Perspective (2nd)](https://github.com/yowenter/books/blob/master/Programming/Computer Systems - A Programmer's Perspective (2nd).pdf)  
   
 - [深入理解计算机系统](https://github.com/yowenter/books/blob/master/Programming/深入理解计算机系统.pdf)  
   
+- [the c programming language%25282nd edition%2529](https://github.com/yowenter/books/blob/master/Programming/the c programming language%25282nd edition%2529.pdf)  
+  
 - [编码 隐匿在计算机软硬件背后的语言](https://github.com/yowenter/books/blob/master/Programming/编码 隐匿在计算机软硬件背后的语言.pdf)  
   
-- [如何阅读一本书](https://github.com/yowenter/books/blob/master/如何阅读一本书.pdf)  
+- [Modern_Operating_Systems](https://github.com/yowenter/books/blob/master/Programming/Modern_Operating_Systems.pdf)  
+  
+- [汇编语言王爽著](https://github.com/yowenter/books/blob/master/Programming/汇编语言王爽著.pdf)  
+  
+- [Compilers - Principles Techniques and Tools by Alfred Aho - Monica Lam- Ravi Sethi- Jeffrey Ullman - Second Edition](https://github.com/yowenter/books/blob/master/Programming/Compilers - Principles Techniques and Tools by Alfred Aho - Monica Lam- Ravi Sethi- Jeffrey Ullman - Second Edition.pdf)  
+  
+## Economics  
+  
+- [证券分析(第6版)下](https://github.com/yowenter/books/blob/master/Economics/证券分析(第6版)下.pdf)  
+  
+- [证券分析(第6版)上](https://github.com/yowenter/books/blob/master/Economics/证券分析(第6版)上.pdf)  
+  
+- [Macroeconomics NGregoryMankiw8th](https://github.com/yowenter/books/blob/master/Economics/Macroeconomics N.Gregory.Mankiw.8th.pdf)  
+  
+- [弗雷德里克·米什金：The Economics of Money, Banking, and Financial Markets (第7版 扫描版)](https://github.com/yowenter/books/blob/master/Economics/弗雷德里克·米什金：The Economics of Money, Banking, and Financial Markets (第7版 扫描版).pdf)  
+  
+## Mind  
+  
+- [彼得·圣吉：第五项修炼——学习型组织的艺术与实务](https://github.com/yowenter/books/blob/master/Mind/彼得·圣吉：第五项修炼——学习型组织的艺术与实务.pdf)  
+  
+- [安迪·格鲁夫：只有偏执狂才能生存 (扫描版)](https://github.com/yowenter/books/blob/master/Mind/安迪·格鲁夫：只有偏执狂才能生存 (扫描版).pdf)  
+  
+- [simple heuristics that make us smart](https://github.com/yowenter/books/blob/master/Mind/simple heuristics that make us smart.pdf)  
+  
+- [失败的逻辑：事情因何出错，世间有无妙策](https://github.com/yowenter/books/blob/master/Mind/失败的逻辑：事情因何出错，世间有无妙策.pdf)  
+  
+- [高斯 & 温伯格：你的灯亮着吗？——发现问题的真正所在](https://github.com/yowenter/books/blob/master/Mind/高斯 & 温伯格：你的灯亮着吗？——发现问题的真正所在.pdf)  
+  
+## Information Retrieval  
+  
+- [introduction to information retrieval Manning](https://github.com/yowenter/books/blob/master/Information Retrieval/introduction to information retrieval Manning.pdf)  
+  
+- [Information Retrieval Implementing and Evaluating Search Engines](https://github.com/yowenter/books/blob/master/Information Retrieval/Information Retrieval Implementing and Evaluating Search Engines.pdf)  
+  
+- [SEIRiP](https://github.com/yowenter/books/blob/master/Information Retrieval/SEIRiP.pdf)  
   
 
 
