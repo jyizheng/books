@@ -66,6 +66,8 @@ Hope you can find interests in the books.
   
 - [Modern_Operating_Systems](https://github.com/yowenter/books/blob/master/Programming/Modern_Operating_Systems.pdf)  
   
+- [SQLite+Database+System+Design+and+Implementation](https://github.com/yowenter/books/blob/master/Programming/SQLite+Database+System+Design+and+Implementation.pdf)  
+  
 - [汇编语言王爽著](https://github.com/yowenter/books/blob/master/Programming/汇编语言王爽著.pdf)  
   
 - [Compilers - Principles Techniques and Tools by Alfred Aho - Monica Lam- Ravi Sethi- Jeffrey Ullman - Second Edition](https://github.com/yowenter/books/blob/master/Programming/Compilers - Principles Techniques and Tools by Alfred Aho - Monica Lam- Ravi Sethi- Jeffrey Ullman - Second Edition.pdf)  
