@@ -88,6 +88,8 @@ Hope you can find interests in the books.
   
 - [安迪·格鲁夫：只有偏执狂才能生存 (扫描版)](https://github.com/yowenter/books/blob/master/Mind/安迪·格鲁夫：只有偏执狂才能生存 (扫描版).pdf)  
   
+- [The Art of Insight in Science and Engineering_ Mastering Complexity](https://github.com/yowenter/books/blob/master/Mind/The Art of Insight in Science and Engineering_ Mastering Complexity.pdf)  
+  
 - [simple heuristics that make us smart](https://github.com/yowenter/books/blob/master/Mind/simple heuristics that make us smart.pdf)  
   
 - [失败的逻辑：事情因何出错，世间有无妙策](https://github.com/yowenter/books/blob/master/Mind/失败的逻辑：事情因何出错，世间有无妙策.pdf)  
