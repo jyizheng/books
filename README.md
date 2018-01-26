@@ -20,6 +20,10 @@ Hope you can find interests in the books.
   
 - [Bishop - Pattern Recognition and Machine Learning](https://github.com/yowenter/books/blob/master/Machine Learning/Bishop - Pattern Recognition and Machine Learning.pdf)  
   
+## Design  
+  
+- [Edward R Tufte -The Visual Display of Quantitative Information](https://github.com/yowenter/books/blob/master/Design/Edward R Tufte -The Visual Display of Quantitative Information.pdf)  
+  
 ## Google Papers  
   
 - [Large-scale cluster management at Google with Borg](https://github.com/yowenter/books/blob/master/Google Papers/Large-scale cluster management at Google with Borg.pdf)  
