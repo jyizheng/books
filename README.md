@@ -88,6 +88,8 @@ Hope you can find interests in the books.
   
 ## Mind  
   
+- [How-to-Lie-With-Statistics-1954-Huff](https://github.com/yowenter/books/blob/master/Mind/How-to-Lie-With-Statistics-1954-Huff.pdf)  
+  
 - [彼得·圣吉：第五项修炼——学习型组织的艺术与实务](https://github.com/yowenter/books/blob/master/Mind/彼得·圣吉：第五项修炼——学习型组织的艺术与实务.pdf)  
   
 - [安迪·格鲁夫：只有偏执狂才能生存 (扫描版)](https://github.com/yowenter/books/blob/master/Mind/安迪·格鲁夫：只有偏执狂才能生存 (扫描版).pdf)  
