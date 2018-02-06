@@ -7,7 +7,7 @@ import urllib
 
 HeaderLine = """
 ```
-The book list here mainly contains economics, technology, mind and psychology.
+The books list here mainly contains economics, technology, mind and psychology.
 I've read them more than once.
 They introduce different insights about the world and self.
 Hope you'll find interest in them.  - TAOG
