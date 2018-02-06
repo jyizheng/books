@@ -2,28 +2,24 @@
 import logging
 import os
 import re
+import urllib
 
 
 HeaderLine = """
 ```
-The book list mainly contains economics, technology and psychology.
-I've read them more or less.
-They gave me different insights to the world, and how something works. So I'd like to share with others.
-I'm not the one who sells knowledge. Knowledge is dead and everywhere.
-Since the future is already here, I just wanna it to be distributed.
-Hope you can find interests in the books.
-
+The book list here mainly contains economics, technology, mind and psychology.
+I've read them more than once.
+They introduce different insights about the world and self.
+Hope you'll find interest in them.  - TAOG
 ```
 """
 
 FooterLine = """
 
-## PR
+## Pull Request
 
-Any pull requests or issues are welcome .    
-Use `python generate_readme.py` for generating readme.
-
-
+Any pull requests or issues are welcome.    
+Use `python generate_readme.py` to make readme.
 
 """
 
@@ -107,7 +103,8 @@ class MarkDownRender:
     	if lines is None:
     		lines = []
         if self.node.__class__.__name__ == 'FileNode':
-            lines.append("- [{}]({})  \n".format(self.node.name,"https://github.com/yowenter/books/blob/master%s"%self.node.path[PREFIX:]))
+            lines.append("- [{}]({})  \n".format(self.node.name,
+            "https://github.com/yowenter/books/blob/master%s"%urllib.quote(self.node.path[PREFIX:])))
 
 
         elif self.node.__class__.__name__ == 'DirectoryNode':
