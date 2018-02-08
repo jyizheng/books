@@ -45,5 +45,6 @@ Any suggestions or pull requests are welcome.
 ## More Info
 
 Please visit my sharing airtable base [Book Catalog](https://airtable.com/shrhEVAegv3ifwlou) .
+If you want to share your books, click [Join Airtable](https://airtable.com/invite/l?inviteId=inv1Z4cEG2JWQu8JR&inviteToken=25fb4f9dfc75e225adcc2c94e1d377a1d552b22e5e348cff89244e28cc592f75)
 
 """
