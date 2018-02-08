@@ -6,3 +6,8 @@ def to_str(s):
 
 
 
+def to_unicode(s):
+    if type(s)==unicode:
+        return s
+    return str(s).decode("utf-8")
+    

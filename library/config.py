@@ -10,6 +10,10 @@ README_PATH = os.path.join(ROOT_DIRECTORY, "README.md")
 
 METADATA_JSON_PATH = os.path.join(ROOT_DIRECTORY,"metadata.json")
 
+AIRTABLE_BOOK_CATALOG_API = os.getenv("AIRTABLE_BOOK_CATALOG_API", "https://api.airtable.com/v0/appQKS7QmJGB52PAi/Books")
+AIRTABLE_API_KEY = os.getenv("AIRTABLE_API_KEY")
+
+
 
 HeaderLine = """
 # Books
@@ -45,6 +49,6 @@ Any suggestions or pull requests are welcome.
 ## More Info
 
 Please visit my sharing airtable base [Book Catalog](https://airtable.com/shrhEVAegv3ifwlou) .
-If you want to share your books, click [Join Airtable](https://airtable.com/invite/l?inviteId=inv1Z4cEG2JWQu8JR&inviteToken=25fb4f9dfc75e225adcc2c94e1d377a1d552b22e5e348cff89244e28cc592f75)
+If you want to share your books, click [Join](https://airtable.com/invite/l?inviteId=inv1Z4cEG2JWQu8JR&inviteToken=25fb4f9dfc75e225adcc2c94e1d377a1d552b22e5e348cff89244e28cc592f75)
 
 """

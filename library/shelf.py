@@ -10,8 +10,8 @@ logging.basicConfig(tream=sys.stdout, level=logging.INFO)
 
 LOG = logging.getLogger(__name__)
 
-from models import Book, Shelf, CSVBookReader, JSONBookReader
-from config import ROOT_DIRECTORY, README_PATH, METADATA_JSON_PATH, HeaderLine, FooterLine
+from models import Book, Shelf, CSVBookReader, JSONBookReader, AirtableBookReader
+from config import ROOT_DIRECTORY, README_PATH, METADATA_JSON_PATH, HeaderLine, FooterLine, AIRTABLE_API_KEY, AIRTABLE_BOOK_CATALOG_API
 from render import ShelfMDRender, BookMDRender
 
 
@@ -45,6 +45,11 @@ def main():
     for d in json_reader.read():
         shelf.add_book(Book(**d))
     
+    if AIRTABLE_API_KEY and AIRTABLE_BOOK_CATALOG_API:
+        airtable_reader = AirtableBookReader(AIRTABLE_API_KEY, AIRTABLE_BOOK_CATALOG_API)
+        for d in airtable_reader.read():
+            shelf.add_book(Book(**d))
+
 
 
     LOG.info("Output readme %s", README_PATH)
