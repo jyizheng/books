@@ -7,15 +7,43 @@ import json
 import requests
 import csv
 import re 
-from utils import to_unicode
+from utils import to_unicode, to_str
 
 LOG = logging.getLogger(__name__)
 
 
 
+
+
 def lcs(a, b):
+    def pprint(matrix):
+        for row in matrix:
+            LOG.debug(row)
+
     #todo
-    return []
+
+    matrix = [[0 for i in range(len(b))] for j in range(len(a))]
+    # symbols =  [['' for i in range(len(b))] for j in range(len(a))]
+
+    if a[0] == b[0]:
+        matrix[0][0] = 1 
+
+    for i in range(1,len(a)):
+        for j in range(1,len(b)):
+
+            if a[i]==b[j]:
+                matrix[i][j] = matrix[i-1][j-1] +1 
+            else:
+                matrix[i][j] = max(matrix[i][j-1], matrix[i-1][j])
+            
+            pprint(matrix)
+
+    pprint(matrix)
+    
+    return matrix[len(a)-1][len(b)-1]
+
+    
+
 
 
             
@@ -23,11 +51,14 @@ def lcs(a, b):
 
 
 def txt_similarity(s1, s2):
+    
     us1 = to_unicode(s1)
     us2 = to_unicode(s2)
     us1 = "".join(re.findall(u"[\u4e00-\u9fa5]|\w",us1)).lower()
     us2 = "".join(re.findall(u"[\u4e00-\u9fa5]|\w",us2)).lower()
-    return len(lcs(us1, us2))
+    ls = lcs(us1, us2)
+    # LOG.info("%s vs %s, %s, %s",to_str(s1), to_str(s2), ls, ls/float(len(us1)))
+    return ls/float(len(us1))
 
 
 
@@ -37,23 +68,40 @@ class Shelf(object):
         self.books = books
 
     
-    def add_book(self, book):
+    def add_book(self, book, check_similarity=False):
         if not getattr(book, "name", None):
             LOG.info("Book has no name %s", book)
             return None 
+        
+        if not check_similarity:
+            found = False
+            for idx, b in enumerate(self.books):
+                if b.name == book.name:
+                    LOG.info("UPDATE Book old: %s new: %s", b, book)
+                    self.books[idx].update(**book.as_dict())
+                    found = True
+                    break
+            if not found:
+                LOG.info("ADD Book %s", book)
+                self.books.append(book)
+            return book
+                
+
         similarity = 0
         index = None 
+        old_book = None 
         for idx, b in enumerate(self.books):
             sim = txt_similarity(book.name, b.name)
             if sim>similarity:
                 index = idx
                 similarity = sim
+                old_book = b
         
-        if similarity>4:
-            LOG.info("UPDATE Book %s",book)
+        if similarity>0.8:
+            LOG.info("Similarity > 0.8, UPDATE Book old: %s new: %s", old_book, book)
             self.books[index].update(**book.as_dict())
         else:
-            LOG.info("ADD Book %s", book)
+            LOG.info("Similarity < 0.8, ADD Book %s", book)
             self.books.append(book)
 
     def __repr__(self):
@@ -69,16 +117,16 @@ class Book(object):
         "path",
         "tags",
         "category",
-        "goodread_link",
-        "douban_link"
+        "goodread",
+        "douban"
     ]
 
     def __init__(self, **kwargs):
         self.update(**kwargs)
     
     def update(self, **kwargs):
-        for attr in self.attributes:
-            if kwargs.get(attr):
+        for attr in self.attributes :
+            if kwargs.get(attr) is not None:
                 setattr(self, attr, kwargs[attr])
     
 
@@ -103,8 +151,12 @@ class Book(object):
 
     
     def __repr__(self):
-        return str({k:getattr(self,k,None) for k in self.attributes})
+        return to_str(getattr(self, "name", ""))
+    
 
+
+    def as_dict(self):
+        return {k:getattr(self, k, None) for k in self.attributes}
 
 
 class BookReader(object):
@@ -154,7 +206,8 @@ class AirtableBookReader(BookReader):
 
         for r in records:
             data = r['fields']
-            d = {"_".join(k.lower().split(" ")):data[k] for k in data }
+
+            d = {to_str("_".join(k.strip().lower().split(" "))):to_str(data[k]) for k in data }
             yield d
 
 

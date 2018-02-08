@@ -48,7 +48,7 @@ def main():
     if AIRTABLE_API_KEY and AIRTABLE_BOOK_CATALOG_API:
         airtable_reader = AirtableBookReader(AIRTABLE_API_KEY, AIRTABLE_BOOK_CATALOG_API)
         for d in airtable_reader.read():
-            shelf.add_book(Book(**d))
+            shelf.add_book(Book(**d), check_similarity=True)
 
 
 

@@ -9,8 +9,8 @@ class BookMDRender(object):
     
     md_columns = [
         "channel",
-        "name"
-
+        "name",
+        "douban"
     ]
 
     def __init__(self, book):
@@ -40,7 +40,7 @@ class BookMDRender(object):
 
     
     def md_column(self):
-        return "| {} |\n".format(" | ".join([getattr(self, a, "None") for a in self.md_columns]))
+        return "| {} |\n".format(" | ".join([getattr(self, a, "") or getattr(self.book, a, "") for a in self.md_columns]))
 
 
 
