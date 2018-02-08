@@ -11,7 +11,7 @@ class BookMDRender(object):
         "channel",
         "name",
         "douban",
-        "category"
+        "tags"
     ]
 
     def __init__(self, book):
