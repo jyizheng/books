@@ -8,8 +8,9 @@ from utils import to_str
 class BookMDRender(object):
     
     md_columns = [
-        "name",
-        "channel"
+        "channel",
+        "name"
+
     ]
 
     def __init__(self, book):
