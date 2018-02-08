@@ -10,7 +10,8 @@ class BookMDRender(object):
     md_columns = [
         "channel",
         "name",
-        "douban"
+        "douban",
+        "category"
     ]
 
     def __init__(self, book):
