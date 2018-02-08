@@ -64,7 +64,8 @@ Any suggestions or pull requests are welcome.
 
 ## TODO
 
-- [ ] ADD DouBan Link
+- [X] ADD DouBan Link
+- [X] ADD Airtable Link
 - [ ] ADD GoodRead Link
 - [ ] ADD Shanghai Library Link
 - [ ] ADD Recommend
