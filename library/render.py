@@ -1,0 +1,47 @@
+# -*-encoding: utf-8 -*-
+
+import urllib
+from config import GITHUB_LINK
+
+from utils import to_str
+
+class BookMDRender(object):
+    
+    md_columns = [
+        "name"
+    ]
+
+    def __init__(self, book):
+        self.book = book
+
+    @property
+    def name(self):
+        return "[{}]({})".format(to_str(self.book.name), to_str(self.download_link))
+
+    @property
+    def download_link(self):
+        return "{}/blob/master{}".format(GITHUB_LINK, urllib.quote(self.book.path.encode("utf-8")))
+
+
+    @classmethod
+    def md_header(cls):
+        title_1_line = "| {} |".format(" | ".join(["%20s"%c for c in cls.md_columns]))
+        title_2_line = "| {} |".format(" | ".join([ "-"*20 for c in cls.md_columns]))
+        return "{}\n{}\n".format(title_1_line, title_2_line)
+
+    
+    def md_column(self):
+        return "| {} |\n".format(" | ".join([getattr(self, a, "None") for a in self.md_columns]))
+
+
+
+
+class ShelfMDRender(object):
+    def __init__(self, shelf):
+        self.shelf = shelf
+
+
+    
+    def render_as_markdown(self):
+        pass
+        
