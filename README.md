@@ -3,7 +3,7 @@
 
 ```
 The books list here mainly contains economics, technology, mind and psychology.
-I've read them more than once.
+I've read them more or less.
 They introduce different insights about the world and self.
 Hope you'll find interest in them.  - TAOG
 ```
