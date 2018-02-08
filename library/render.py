@@ -22,9 +22,6 @@ class BookMDRender(object):
         return "[{}]({})".format(to_str(self.book.name), to_str(self.download_link))
 
 
-    @property
-    def tags(self):
-        return ",".join(self.book.tags)
     
     @property
     def channel(self):
