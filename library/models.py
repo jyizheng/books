@@ -60,6 +60,16 @@ class Book(object):
         	return "".join(slices[:-1])
         else:
         	return slices[0]
+    
+    @property
+    def parent(self):
+        fname = os.path.split(getattr(self, "path", ""))
+        if len(fname)>=2:
+            parent  = fname[-2]
+            return parent 
+        else:
+            return None
+
 
     
     def __repr__(self):

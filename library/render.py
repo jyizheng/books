@@ -8,7 +8,8 @@ from utils import to_str
 class BookMDRender(object):
     
     md_columns = [
-        "name"
+        "name",
+        "channel"
     ]
 
     def __init__(self, book):
@@ -17,6 +18,13 @@ class BookMDRender(object):
     @property
     def name(self):
         return "[{}]({})".format(to_str(self.book.name), to_str(self.download_link))
+
+    
+    @property
+    def channel(self):
+        parent = self.book.parent
+        link = "{}/blob/master{}".format(GITHUB_LINK, urllib.quote(to_str(parent.encode("utf-8"))))
+        return "[{}]({})".format(parent.encode("utf-8"), link)
 
     @property
     def download_link(self):

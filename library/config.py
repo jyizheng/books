@@ -27,8 +27,8 @@ FooterLine = """
 
 ## README
 
-1,  `pip install requests`
-2,  `python library/shelf.py`
+-  `pip install requests`
+-  `python library/shelf.py`
 
 ## PR
 
