@@ -42,6 +42,8 @@ Any suggestions or pull requests are welcome.
 - [ ] ADD Recommend
 - [ ] ADD Export to Excel/Google Docs/Airtable
 
+## More Info
 
+Please visit my sharing airtable base [Book Catalog](https://airtable.com/shrhEVAegv3ifwlou) .
 
 """
