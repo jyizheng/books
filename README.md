@@ -62,5 +62,13 @@ Hope you'll find interest in them.  - TAOG
 
 Any suggestions or pull requests are welcome. 
 
+## TODO
+
+- [ ] ADD DouBan Link
+- [ ] ADD GoodRead Link
+- [ ] ADD Shanghai Library Link
+- [ ] ADD Recommend
+- [ ] ADD Export to Excel/Google Docs/Airtable
+
 
 
