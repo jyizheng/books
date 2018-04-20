@@ -20,6 +20,7 @@ Hope you'll find interest in them.  - TAOG
 | [/Google Papers](https://github.com/yowenter/books/blob/master/Google%20Papers) | [gfs-sosp2003](https://github.com/yowenter/books/blob/master/Google%20Papers/gfs-sosp2003.pdf) |  |  |
 | [/Google Papers](https://github.com/yowenter/books/blob/master/Google%20Papers) | [bigtable-osdi06](https://github.com/yowenter/books/blob/master/Google%20Papers/bigtable-osdi06.pdf) |  |  |
 | [/Google Papers](https://github.com/yowenter/books/blob/master/Google%20Papers) | [mapreduce-osdi04](https://github.com/yowenter/books/blob/master/Google%20Papers/mapreduce-osdi04.pdf) |  |  |
+| [/Google Papers](https://github.com/yowenter/books/blob/master/Google%20Papers) | [TensorFlow Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://github.com/yowenter/books/blob/master/Google%20Papers/TensorFlow%20Large-Scale%20Machine%20Learning%20on%20Heterogeneous%20Distributed%20Systems.pdf) |  |  |
 | [/Cryptography](https://github.com/yowenter/books/blob/master/Cryptography) | [图解密码技术（日）结城浩](https://github.com/yowenter/books/blob/master/Cryptography/%E5%9B%BE%E8%A7%A3%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF%EF%BC%88%E6%97%A5%EF%BC%89%E7%BB%93%E5%9F%8E%E6%B5%A9.pdf) |  |  |
 | [/Product](https://github.com/yowenter/books/blob/master/Product) | [Intercom-on-Onboarding](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Onboarding.pdf) |  |  |
 | [/Product](https://github.com/yowenter/books/blob/master/Product) | [Intercom-on-Product-Management-](https://github.com/yowenter/books/blob/master/Product/Intercom-on-Product-Management-.pdf) |  |  |
@@ -52,6 +53,7 @@ Hope you'll find interest in them.  - TAOG
 | [/Information Retrieval](https://github.com/yowenter/books/blob/master/Information%20Retrieval) | [introduction to information retrieval Manning](https://github.com/yowenter/books/blob/master/Information%20Retrieval/introduction%20to%20information%20retrieval%20Manning.pdf) |  |  |
 | [/Information Retrieval](https://github.com/yowenter/books/blob/master/Information%20Retrieval) | [Information Retrieval:Implementing and Evaluating Search Engines](https://github.com/yowenter/books/blob/master/Information%20Retrieval/Information%20Retrieval%20Implementing%20and%20Evaluating%20Search%20Engines.pdf) | https://book.douban.com/subject/4881120/ | IR , IT |
 | [/Information Retrieval](https://github.com/yowenter/books/blob/master/Information%20Retrieval) | [SEIRiP](https://github.com/yowenter/books/blob/master/Information%20Retrieval/SEIRiP.pdf) |  |  |
+| [](https://github.com/yowenter/books/blob/master) | Designing Data-Intensive Applications | https://book.douban.com/subject/26197294/ | Data |
 
 
 ## README
